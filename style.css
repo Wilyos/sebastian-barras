@@ -743,3 +743,19 @@ transform: scale(1.03);
     font-size: 1.8rem;
   }
 }
+
+
+@media (max-width: 400px) {
+
+  .social-icons span{
+  font-size: 1.5rem;
+  color:  var(--text-color);
+  }
+  .social-icons p {
+    font-size: 1.5rem;
+  }
+
+  .copyright{
+    font-size: 1.5rem;
+  }
+}
