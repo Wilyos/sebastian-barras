@@ -190,7 +190,7 @@ section{
 .social-icons ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:flex-start;
   width: 100%;
   list-style: none;
   padding: 0;
@@ -736,10 +736,10 @@ transform: scale(1.03);
   }
 
   .social-icons span{
-  font-size: 2rem;
+  font-size: 1.8rem;
   color:  var(--text-color);
   }
   .social-icons p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
