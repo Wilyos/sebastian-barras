@@ -666,7 +666,7 @@ transform: scale(1.03);
 @media (max-width: 500px) {
 
   .html{
-    font-size: 40%;
+    font-size: 30%;
     overflow-x: hidden;
   }
   
