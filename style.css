@@ -670,7 +670,7 @@ transform: scale(1.03);
     overflow-x: hidden;
   }
   
-  
+ 
   .home {
     margin-top: 15rem;
     flex-direction: column-reverse;
@@ -717,5 +717,29 @@ transform: scale(1.03);
     max-width: 60px;
     font-weight: 400;
     margin-top: 0.3rem;
+  }
+
+  .home-content h1,
+  .about-content h2,
+  .heading {
+    font-size: 5rem;
+  }
+
+  .home-content h3,
+  .project-card h3,
+  .service-info h4 {
+    font-size: 3rem;
+  }
+
+  .about-content h2 {
+    font-size: 3rem;
+  }
+
+  .social-icons span{
+  font-size: 2rem;
+  color:  var(--text-color);
+  }
+  .social-icons p {
+    font-size: 2rem;
   }
 }
